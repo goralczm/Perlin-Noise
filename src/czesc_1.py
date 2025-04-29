@@ -56,7 +56,7 @@ def interpolacja_1d_cala_vnlin(x, tab_wart):
     w_p = tab_wart[i_x_p]
     delta_x = x - x_l
 
-    return interpolacja_1d_rdzen_vnlin(w_l, w_p, delta_x, vkos)
+    return interpolacja_1d_rdzen_vnlin(w_l, w_p, delta_x, vwmian)
 
 
 if __name__ == '__main__':
