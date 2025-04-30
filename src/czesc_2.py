@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-
 from czesc_1 import *
 
 seed = 42
